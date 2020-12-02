@@ -1,10 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import ClockCompont from "./ReactCompont/ClockCompont";
+import ButtonComponent from "./ReactCompont/ButtonComponent";
+import HookSample from "./ReactCompont/HookExample";
+
 
 function App() {
   console.log('react 热啊冲突')
   return (
     <div className="App">
+      <ClockCompont></ClockCompont>
+      <ButtonComponent></ButtonComponent>
+      <HookSample></HookSample>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
